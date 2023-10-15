@@ -1,0 +1,7 @@
+panel
+pytest
+pytest-playwright
+pytest-benchmark
+pandas
+snakeviz
+pyinstrument
