@@ -5,3 +5,4 @@ pytest-benchmark
 pandas
 snakeviz
 pyinstrument
+plotly

@@ -11,7 +11,7 @@ def example():
 # https://panel.holoviz.org/how_to/test/pytest.html
 def test_example_performance(example: Example, benchmark):
     def select_location_and_compute():
-        example.select_location = "USA"
+        example.location = "USA"
         example.view()
 
     benchmark(select_location_and_compute)
